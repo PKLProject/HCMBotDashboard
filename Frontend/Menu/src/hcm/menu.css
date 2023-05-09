@@ -1,0 +1,120 @@
+.raffy {
+    background-color:#FFE9E9;
+    width: 380px;
+
+}
+
+.feature {
+    font-size: larger;
+    font-weight: 500;
+    margin-top: 5vh;
+    padding: 2%;
+    color: #640006;
+}
+
+.prof {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    text-align: left;
+    
+
+}
+.my-prof {
+    background-color: #FFE9E9;
+}
+
+
+.backg {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.text {
+    color: white;
+}
+
+.menutxt {
+    padding-bottom: 5%;
+    padding-left: 2%;
+    font-size: larger;
+    margin-top: 1vh;
+    color: #640006;
+    font-weight: 500;
+    
+}
+
+.dash {
+    background-color: #980C14;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.jadwal {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.gaji{
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.konsul {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.absensi {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.mutasi {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.daftar {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.pelatihan {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.rekrut {
+    background-color:  #B95F64;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.line {
+    position: absolute;
+    width: 365px;
+    height: 10px;
+    background-color: #640006;
+    margin-top: 65px;
+    top: 195px;
+    border-radius: 20px;
+}
+
+.linee {
+    position: absolute;
+    width: 365px;
+    height: 5px;
+    background-color: #640006;
+    margin-top: 65px;
+    top: 878px;
+    border-radius: 20px;
+}
