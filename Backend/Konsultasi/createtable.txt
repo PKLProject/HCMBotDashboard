@@ -1,0 +1,19 @@
+//create table 
+create table konsultasi (	
+	tgl_pengiriman TIMESTAMPTZ  NOT NULL DEFAULT NOW (),
+	karyawan_id int,
+	jenis_konsultasi varchar,
+	departement_terkait varchar,
+	isi_konsultasi varchar,
+	tindak_lanjut varchar,
+	status varchar
+);
+
+//Memasukan data
+INSERT INTO konsultasi(
+	karyawan_id, jenis_konsultasi, departement_terkait, isi_konsultasi, tindak_lanjut, status)
+	VALUES 
+	('1', 'Pribadi','-','Selamat pagi, saya memiliki keluhan tentang rekan kerja saya yang membuat saya kurang nyaman.','Terima kasih telah mengajukan keluhan. Kami akan memperbaiki tentang hal itu.','Selesai');
+
+//melihat hasil
+select * from konsultasi
