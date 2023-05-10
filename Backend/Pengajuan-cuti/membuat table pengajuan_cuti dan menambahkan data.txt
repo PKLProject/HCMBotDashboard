@@ -1,0 +1,20 @@
+//Create table and columns
+create table pengajuan_cuti (
+	tanggal_pengiriman TIMESTAMPTZ NOT NULL DEFAULT NOW (),
+	batas_persetujuan TIMESTAMPTZ,
+	id_karyawan integer,
+	tgl_cuti TIMESTAMPTZ,
+	akhir_cuti TIMESTAMPTZ,
+	alasan varchar,
+	komentar varchar,
+	status boolean
+);
+
+//Memasukan data
+INSERT INTO pengajuan_cuti(
+	batas_persetujuan,id_karyawan, tgl_cuti, akhir_cuti, alasan, komentar, status)
+	VALUES
+	('2 april 2023','1','3 april 2023','10 april 2023','acara keluarga','-','true');
+	
+//Melihat hasil
+select * from pengajuan_cuti
