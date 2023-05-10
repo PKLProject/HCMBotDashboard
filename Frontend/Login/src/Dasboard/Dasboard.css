@@ -1,0 +1,86 @@
+
+
+/* navbar */
+.nav {
+    position: relative;
+    width: 100vw;
+    height: 5vw;
+    top: 0vw;
+    background:  #760305;
+}
+
+.logo{
+    position: relative;
+    top: 0.5vw;
+    left: 2vw;
+    width: 13vw;
+    height: 4vw;
+    background: #630506;
+    border-radius: 0.5vw;
+}
+.logo img{
+    position: absolute;
+    width: 10vw;
+    margin-top: 0.3vw;
+    left: 1.5vw;
+}
+
+.avatar{
+    width: 13vw;
+    height: 4vw;
+    background:  #630506;
+    border-radius: 0.5vw;
+    left: 83vw;
+    top: -3.5vw;
+}
+
+.nav h1{
+    color: white;
+    font-weight: 400;
+    top: 10vw;
+    left: 75vw;
+    top: 1.5vw;
+}
+
+.avatar h1{
+    position: relative;
+    left: 5.3vw;
+    top: 1vw;
+    font-size: 0.9em;
+}
+/*  */
+
+.frame1{
+    position: relative;
+    width: 40vw;
+    height: 20vw;
+    background:  #EBEBEB;
+    border-radius: 0.5vw;
+    top: 3vw;
+    left: 5vw;
+}
+
+.frame1a{
+    width: 40vw;
+    height: 3vw;
+    background:  linear-gradient(90deg, #960000 0%, #760105 100%);
+    border-radius: 0.5vw 0.5vw 0vw 0vw;
+}
+
+.frame1a h1{
+    position: absolute;
+    color: white;
+    top: 0.5vw;
+    left: 5vw;
+}
+
+.kd1{
+    width: 35vw;
+    height: 5vw;
+    background: white;
+}
+
+.frame1i{
+    position: relative;
+    margin-top: 2vw;
+}
