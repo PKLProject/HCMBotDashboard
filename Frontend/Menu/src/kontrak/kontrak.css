@@ -1,0 +1,42 @@
+.atas {
+    position: absolute;
+    width: 1400px;
+    height: 45px;
+    background: #960000;
+    left: 107px;
+    top: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.back {
+    position: absolute;
+    width: 1400px;
+    height: 650px;
+    background: #F6F6F6;
+    left: 107px;
+    top: 76px;
+}
+
+.lonceng {
+    position: absolute;
+    left: 130px;
+    top: 40px;
+}
+
+.pemberitahuan {
+    position: absolute;
+    left: 170px;
+    top: 38px;
+    color: white;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.tables{
+    position: relative;
+    width: 1395px;
+    left: 110px;
+    top: 90px;
+    
+}
